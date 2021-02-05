@@ -66,8 +66,8 @@ public class Primo {
                     System.out.println("Numero " + (integer));
                 });
 	}
-	// Modificado
-	public static boolean ehPrimo(int numero) {
+
+        public static boolean ehPrimo(int numero) {
 	
 		for (int i = 2; i < numero; i++) {
 			if (numero % i == 0) {
